@@ -1,0 +1,31 @@
+
+body{
+  background-color: orange;
+  background-repeat: no-repeat;
+  
+}
+h1{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 3000;
+  text-align: center;
+}
+.image{
+  background-color: black;
+}
+.button {
+  font-family: sans-serif;
+  font-weight: 700;
+  border-radius: 50000px;
+  text-transform: uppercase;
+  background-color: black;
+  color: yellow;
+  border-color: white;
+  border-width: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  border-width: 10px;
+  cursor: pointer;
+  color: red;
+}
