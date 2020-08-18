@@ -1,0 +1,17 @@
+ h2 {
+    text-align: center;
+}
+ 
+  form {
+       
+    width: 40%;
+    height:150px;
+    margin: 0 auto;
+    padding-top: 3%;
+    background-image: url(buk.jpg);
+
+
+  }
+  body {
+        background-color: grey;
+  }
