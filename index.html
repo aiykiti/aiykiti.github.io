@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zumbia developers</title>
-    <script type="text/javascript" src="main.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -13,21 +13,20 @@
     </header>
     <nav>
         <div>
-    <form  name="myForm" method="GET" onsubmit="mal()">
+    <form  name="myForm" id="form" >
         <table>
-            <tr>
                 
             <tr>
                 <td><label for="name" >Name: </label></td>
                 <td><input type="text" id="name" name="name"/></td>
             </tr>
             <tr>
-                <td><label for="number">Number: </label></td>
+                <td><label for="number">Phone Number: </label></td>
                 <td><input type="text" id="number" name="number"/></td>
             </tr>
             <tr>
                 <td><label for="address">Address: </label></td>
-                <td><textarea id="address" name="address" placeholder="write full address..." style="height: 20px" ></textarea></td>
+                <td><textarea id="address" name="address" placeholder="write full address..." style="height: 30px" ></textarea></td>
         
             </tr>
             <tr>
@@ -41,12 +40,12 @@
                 </select></td>
             </tr>
         </table>
-        <input type="submit" onclick="mal()"  name="submit"/>
-        <input type="reset" onclick="confam() " name="reset"/>
+        <input type="submit"   name="submit" id="submit" />
+        <input type="reset"  name="reset" id="reset" />
 
     </form>
         </div>
     </nav>
-
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
