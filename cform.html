@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+</head>
+<body>
+    <h2 class="animate__animated animate__zoomInRight">Contact us here</h2>
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Name: </label></td>
+                    <td><input type="text" id="name" name="name"  required name="name" /></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Mobile: </label></td>
+                    <td><input type="number" id="number" name="number" placeholder="Number..." required name="number" ></td>
+
+                </tr>
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" id="email" name="email" required name="email" ></td>
+
+                </tr>
+                <tr>
+                    <td><label for="city">City: </label></td>
+                    <td><select id="city" name="city">
+                        <option value="Ikeja">Ikeja</option>
+                        <option value="Lekki">Lekki</option>
+                        <option value="Badagry">Badagry</option>
+                        <option value="Ikorodu">Ikorodu</option>
+                        <option value="Epe">Epe</option>
+                        <option value="Yaba">Yaba</option>
+                        <option value="Surulere">Surulere</option>
+                        <option value="Apapa">Apapa</option>
+                        <option value="Eko Atlantic">Eko Atlantic</option>
+
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td><label for="subject">Subject: </label></td>
+                    <td><textarea id="subject" name="subject" placeholder="Write something..." style="height: 100px;" required name="subject"></textarea> </td>
+                </tr>
+
+            </table>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+</body>
+</html>
